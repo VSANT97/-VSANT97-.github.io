@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /*
     Victor Santos
     MCC
@@ -32,3 +35,28 @@ h3 {
 .site-intro {
     font-size: 1.25rem
 }
+/****CONTACT PAGE STYLES*****************************************/
+form ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+label{
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+input,
+textarea{
+    width: 300px;
+    padding: 25em;
+    font: 1em sans-serif;
+}
+form li{
+    margin-bottom: 1em;
+}
+textarea{
+    vertical-align: top;
+}
+
+
+/******************************************************************/
