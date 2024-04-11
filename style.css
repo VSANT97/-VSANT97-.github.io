@@ -1,36 +1,35 @@
-*{
-    box-sizing: border-box;
-}
+
 /*
     Victor Santos
     MCC
-    First Stylesheet
-    3/6/24
+    Navigation Styles
+    04/05/24
 */
-h1, h2, h3{
-    color: #AE053E;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
-    color:rgb(233, 10, 10);
-    font-weight: normal;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-
+*{
+    box-sizing: border-box;
 }
 
-h2 {
-    color: ;
-    font-weight:100;
-    letter-spacing: ;
-    text-transform: ;
-    font-size: 2.5rem;
+nav ul{
+   padding-left: 0; 
+   list-style-type: none;
+   text-align: center;
 }
 
-h3 {
-    font-size: 1.5rem;
+nav li{
+    display: inline;
+    padding: 0 10pt;
 }
+
+nav a{
+    
+}
+
+
 
 .site-intro {
     font-size: 1.25rem
