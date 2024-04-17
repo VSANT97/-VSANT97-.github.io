@@ -47,7 +47,7 @@ label{
 input,
 textarea{
     width: 300px;
-    padding: 25em;
+    padding: .5em;
     font: 1em sans-serif;
 }
 form li{
