@@ -8,6 +8,13 @@ body {
     padding: 0;
 }
 
+p {
+    color: #333; 
+    font-family: "Press Start 2P", system-ui; 
+    font-size: 18px;
+    line-height: 1.5; 
+}
+
 h1 {
     color: #333; /* Choose your preferred color */
     font-family: "Press Start 2P", system-ui; /* Choose your preferred font family */
