@@ -27,6 +27,7 @@ h1 {
     nav {
         font-size: 0.75em;
         margin: 0;
+        margin-top: 20px;
         padding: 1em 0;
         text-align: center;
       }
