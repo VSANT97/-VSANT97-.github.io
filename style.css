@@ -70,6 +70,19 @@ h1 {
         color: #092;
       }
 
+.image-container {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%);
+}
+
+.image-container img {
+    margin: 0 10px;
+    width: 100px;
+}
 
 
 .site-intro {
