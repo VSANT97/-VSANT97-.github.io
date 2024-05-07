@@ -18,6 +18,11 @@ h1 {
     text-transform: uppercase; /* Transform the text to uppercase */
     text-decoration: underline; /* Add underline to the text */
 
+    .container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
     nav {
         font-size: 0.75em;
         margin: 0;
