@@ -87,6 +87,14 @@ form ul{
     margin: 0;
     padding: 0;
     text-align: center;
+
+header h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10;
+    text-decoration: underline;
+}
+
 }
 label{
     display: inline-block;
