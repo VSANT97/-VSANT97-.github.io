@@ -1,7 +1,12 @@
 
-body{
+body {
     background-color: aqua;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: VSANT97/VSANT97.github.io/images/mario-maker-design-2-2.jpg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Gill Sans, sans-serif;
+    margin: auto 0;
+    padding: 0;
 }
 
 h1 {
