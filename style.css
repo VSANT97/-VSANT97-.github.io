@@ -18,20 +18,43 @@ h1 {
     text-transform: uppercase; /* Transform the text to uppercase */
     text-decoration: underline; /* Add underline to the text */
 
-nav ul{
-   padding-left: 0; 
-   list-style-type: none;
-   text-align: center;
-}
-
-nav li{
-    display: inline;
-    padding: 0 10pt;
-}
-
-nav a{
-    
-}
+    nav {
+        font-size: 0.75em;
+        margin: 0;
+        padding: 1em 0;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+      }
+      nav li {
+        display: inline;
+        letter-spacing: 0.05rem;
+        padding: 3pt; /*0 padding top and bottom 10 pt left and right*/
+        text-transform: uppercase;
+      }
+      nav a {
+        border: 2px solid white;
+        border-radius: 3px;
+        color: #452f84ff;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 2px;
+        margin: 2px;
+      }
+      nav a:hover {
+        border: 2px solid #374079ff;
+        border-radius: 8px;
+        color: #374079ff;
+      }
+      nav a:visited {
+        color: #09283c;
+      }
+      nav a:active {
+        color: #092;
+      }
 
 
 
