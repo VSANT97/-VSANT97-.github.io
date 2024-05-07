@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(4, 112, 121);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Gill Sans, sans-serif;
@@ -9,14 +9,14 @@ body {
 }
 
 p {
-    color: #333; 
+    color: #000000; 
     font-family:'Times New Roman', Times, serif
     font-size: 14px;
     line-height: 1.5; 
 }
 
 h1 {
-    color: #333; /* Choose your preferred color */
+    color: #000000; /* Choose your preferred color */
     font-family: "Press Start 2P", system-ui; /* Choose your preferred font family */
     font-size: 36px; /* Adjust the font size as needed */
     font-weight: bold; /* Make the title bold */
