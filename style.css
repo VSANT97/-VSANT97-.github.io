@@ -1,18 +1,18 @@
 
-/*
-    Victor Santos
-    MCC
-    Navigation Styles
-    04/05/24
-*/
-
 body{
+    background-color: aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-*{
-    box-sizing: border-box;
-}
+h1 {
+    color: #333; /* Choose your preferred color */
+    font-family: "Press Start 2P", system-ui; /* Choose your preferred font family */
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the title bold */
+    letter-spacing: 2px; /* Add some letter spacing for better readability */
+    text-align: center; /* Center align the title */
+    text-transform: uppercase; /* Transform the text to uppercase */
+    text-decoration: underline; /* Add underline to the text */
 
 nav ul{
    padding-left: 0; 
