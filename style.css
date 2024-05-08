@@ -11,7 +11,7 @@ body {
 p {
     color: #000000; 
     font-family:'Times New Roman', Times, serif
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5; 
 }
 
@@ -104,6 +104,9 @@ img {
 .site-intro {
     font-size: 1.25rem
     }
+ul {
+    font-size: 14;
+}
 /****CONTACT PAGE STYLES*****************************************/
 form {
     align-items: center;
