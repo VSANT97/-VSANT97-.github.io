@@ -75,7 +75,7 @@ img {
     position: fixed;
     width 50px;
     top: 0;
-    height: auto;
+    height: min-content;
     z-index: 9999;
 }
 
