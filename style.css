@@ -46,7 +46,7 @@ nav ul {
 nav li {
     display: inline;
     letter-spacing: 0.05rem;
-    padding: 3pt; /*0 padding top and bottom 10 pt left and right*/
+    padding: 3pt; 
     text-transform: uppercase;
 }
 nav a {
