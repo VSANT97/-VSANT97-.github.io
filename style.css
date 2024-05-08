@@ -72,11 +72,11 @@ nav a:active {
 
 img {
     left: 10;
-    position: fixed;
+    position: relative;
     width 80px;
     top: 10;
     height: fixed;
-    z-index: 9999;
+    z-index: -1;
 }
 
 .footer {
