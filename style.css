@@ -73,15 +73,16 @@ h1 {
 .image-container {
     bottom: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     left: 50%;
     position: fixed;
     transform: translate(-50%);
 }
 
 .image-container img {
+    height: auto;
     margin: 0 10px;
-    width: 50px;
+    width: 200px;
 }
 
 
