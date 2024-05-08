@@ -82,7 +82,7 @@ h1 {
     .image-container img {
         height: auto;
         margin: 0 10px;
-        width: 200px;
+        width: auto;
     }
 
     .footer {
