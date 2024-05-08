@@ -145,14 +145,12 @@ textarea{
 
 /***************ABOUT PAGE*****************************************/
 
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Center everything on the page */
 body {
     display: flex;
     flex-direction: column;
@@ -161,9 +159,8 @@ body {
     min-height: 100vh;
 }
 
-/* Style the navigation bar */
 nav {
-    background-color: #333;
+    background-color: #0ed4f3;
     padding: 10px 0;
     text-align: center;
 }
@@ -182,7 +179,6 @@ nav ul li a {
     text-decoration: solid;
 }
 
-/* Style the header */
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -198,7 +194,6 @@ header h1 {
     color: #666;
 }
 
-/* Style the section content */
 section {
     text-align: center;
     max-width: 800px;
