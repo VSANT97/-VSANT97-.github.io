@@ -87,9 +87,10 @@ h1 {
     }
 
     .image-container img {
-        height: auto;
-        margin: 0 10px;
-        width: auto;
+        max-width: 100%; /* Set the maximum width of images to 100% of their parent container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove extra space below images */
+        margin: 0 auto;
     }
 
     .footer {
