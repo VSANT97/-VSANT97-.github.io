@@ -81,7 +81,7 @@ h1 {
       .image-container {
         display: flex;
         justify-content: space-between; /* Align images with equal space between */
-        max-width: 100%; /* Set the maximum width of the image container to 100% */
+        max-width: 50%; /* Set the maximum width of the image container to 100% */
         margin: 0 auto; /* Center the image container horizontally */
       }
       
