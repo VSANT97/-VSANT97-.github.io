@@ -71,10 +71,10 @@ nav a:active {
 }
 
 img {
-    left: 0;
+    left: 10;
     position: fixed;
-    width 100px;
-    top: 0;
+    width 80px;
+    top: 10;
     height: fixed;
     z-index: 9999;
 }
