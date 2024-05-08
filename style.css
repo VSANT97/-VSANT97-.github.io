@@ -73,9 +73,9 @@ nav a:active {
 img {
     left: 0;
     position: fixed;
-    width 50px;
+    width 100px;
     top: 0;
-    height: min-content;
+    height:fit-content;
     z-index: 9999;
 }
 
