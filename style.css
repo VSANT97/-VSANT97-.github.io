@@ -210,3 +210,24 @@ section p {
     line-height: 1.6;
 }
 
+/****BADGE GALLERY****/
+
+#badge-gallery{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+#badge-gallery img{
+    display: block;
+    width: 100px;
+    margin-top: 9px;
+}
+
+@media (min-width:500px){
+    #badge-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6px;
+        margin-top: 0;
+    }
+}
