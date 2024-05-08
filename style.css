@@ -79,14 +79,10 @@ h1 {
     }
     .image-container {
         bottom: 0;
-        display: flex;
         justify-content: space-between;
         left: 50%;
         position: fixed;
         transform: translate(-50%);
-    }
-
-    .image-container img {
         max-width: 100%; /* Set the maximum width of images to 100% of their parent container */
         height: auto; /* Maintain aspect ratio */
         display: block; /* Remove extra space below images */
