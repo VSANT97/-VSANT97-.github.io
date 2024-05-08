@@ -75,7 +75,7 @@ h1 {
         display: flex;
         justify-content: space-between;
         left: 50%;
-        position:relative;
+        position:fixed;
         transform: translate(-50%);
     }
 
