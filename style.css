@@ -16,89 +16,93 @@ p {
 }
 
 h1 {
-    color: #000000; /* Choose your preferred color */
-    font-family: "Press Start 2P", system-ui; /* Choose your preferred font family */
-    font-size: 36px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the title bold */
-    letter-spacing: 2px; /* Add some letter spacing for better readability */
-    text-align: center; /* Center align the title */
-    text-transform: uppercase; /* Transform the text to uppercase */
-    text-decoration: underline; /* Add underline to the text */
+    color: #000000; 
+    font-family: "Press Start 2P", system-ui; 
+    font-size: 36px; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: underline; 
 }
 
-    .container {
-        text-align: center;
-        margin-top: 20px;
-    }
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
     
-    nav {
-        font-size: 2em;
-        margin: 0;
-        margin-top: 20px;
-        padding: 1em 0;
-        text-align: center;
-      }
-      nav ul {
-        list-style-type: none;
-        padding-left: 0;
-        text-align: center;
-      }
-      nav li {
-        display: inline;
-        letter-spacing: 0.05rem;
-        padding: 3pt; /*0 padding top and bottom 10 pt left and right*/
-        text-transform: uppercase;
-      }
-      nav a {
-        border: 2px solid white;
-        border-radius: 3px;
-        color: #452f84ff;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 2px;
-        margin: 2px;
-      }
-      nav a:hover {
-        border: 2px solid #374079ff;
-        border-radius: 8px;
-        color: #374079ff;
-      }
-      nav a:visited {
-        color: #09283c;
-      }
-      nav a:active {
-        color: #092;
-      }
+nav {
+    font-size: 2em;
+    margin: 0;
+    margin-top: 20px;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    letter-spacing: 0.05rem;
+    padding: 3pt; /*0 padding top and bottom 10 pt left and right*/
+    text-transform: uppercase;
+}
+nav a {
+    border: 2px solid white;
+    border-radius: 3px;
+    color: #452f84ff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+}
+nav a:hover {
+    border: 2px solid #374079ff;
+    border-radius: 8px;
+    color: #374079ff;
+}
+nav a:visited {
+    color: #09283c;
+}
+nav a:active {
+    color: #092;
+}
 
+img {
+    width 100px;
+    height: auto;
+}
 
-      .content img {
-        max-width: 50%; /* Set the maximum width of images to 100% of their parent container */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove extra space below images */
-        margin: 0 auto; /* Center align images horizontally */
-      }
+.content img {
+    max-width: 50%; /* Set the maximum width of images to 100% of their parent container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    margin: 0 auto; /* Center align images horizontally */
+}
       
-      .image-container {
-        display: flex;
-        justify-content: space-between; /* Align images with equal space between */
-        max-width: 50%; /* Set the maximum width of the image container to 100% */
-        margin: 0 auto; /* Center the image container horizontally */
-      }
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Align images with equal space between */
+    max-width: 50%; /* Set the maximum width of the image container to 100% */
+    margin: 0 auto; /* Center the image container horizontally */
+}
       
 
-    .footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-    }
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 
-    .site-intro {
-        font-size: 1.25rem
+.site-intro {
+    font-size: 1.25rem
     }
 /****CONTACT PAGE STYLES*****************************************/
 form {
