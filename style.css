@@ -79,21 +79,6 @@ img {
     z-index: 9999;
 }
 
-.content img {
-    max-width: 50%; /* Set the maximum width of images to 100% of their parent container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below images */
-    margin: 0 auto; /* Center align images horizontally */
-}
-      
-.image-container {
-    display: flex;
-    justify-content: space-between; /* Align images with equal space between */
-    max-width: 50%; /* Set the maximum width of the image container to 100% */
-    margin: 0 auto; /* Center the image container horizontally */
-}
-      
-
 .footer {
     background-color: #333;
     color: #fff;
